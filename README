@@ -1,0 +1,8 @@
+alembic setup
+1. alembic init <name> usually migrations
+
+make migration
+2. alembic revision --autogenerate -m "initial migration"
+
+apply migration to the latest migration file
+3. alembic upgrade head
